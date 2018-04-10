@@ -1,4 +1,6 @@
-# markt [![](https://nodei.co/npm/markt.png?compact=true)](https://www.npmjs.com/package/markt) [<img src="https://assets-cdn.github.com/pinned-octocat.svg" style="height:.75em">](https://github.com/omrilotan/markt)
+# markt [![](https://nodei.co/npm/markt.png?compact=true)](https://www.npmjs.com/package/markt) [![](https://user-images.githubusercontent.com/516342/38551453-17b7e8ca-3cb1-11e8-9754-b70c6e0f316c.png)](https://github.com/omrilotan/markt)
+
+Generate pages from markdown
 
 ## CI-CD use
 
