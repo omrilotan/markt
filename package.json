@@ -14,7 +14,9 @@
   },
   "main": "index.js",
   "scripts": {
-    "start": "./bin/markt README.md ./docs/index.html ./docs.template.html",
+    "start": "mkdir -p docs; npm run html; npm run css",
+    "html": "./bin/markt README.md ./docs/index.html ./src/docs.template.html",
+    "css": "cat ./src/styles.scss | node-sass --output-style compressed > ./docs/styles.css",
     "test": "mocha test.js",
     "prepublishOnly": "npm t"
   },
@@ -27,6 +29,7 @@
     "marked": "^0.3.19"
   },
   "devDependencies": {
-    "mocha": "^5.0.5"
+    "mocha": "^5.0.5",
+    "node-sass": "^4.8.3"
   }
 }
