@@ -10,8 +10,8 @@ const [
 ] = args;
 
 const {promisify} = require('util');
+const fse = require('fs-extra');
 const read = promisify(require('fs').readFile);
-const write = promisify(require('fs').writeFile);
 const markt = require('../');
 
 (async() => {
@@ -25,7 +25,7 @@ const markt = require('../');
             ...args.map(arg => arg.toString())
         );
 
-        await write(destination, output);
+        await fse.outputFile(destination, output);
 
         console.info(`written in ${process.cwd()}/${destination}`);
     } catch (error) {
