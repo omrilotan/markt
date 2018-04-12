@@ -36,4 +36,4 @@ npx markt README.md ./docs/index.html ./scripts/docs.template.html
 
 ---
 
-from the desk of [omrilotan <img height="32px" src="https://user-images.githubusercontent.com/516342/37675827-f3016264-2c7e-11e8-9806-46341bec1d6c.png">](https://omrilotan.com)
+from the desk of [omrilotan <img style="height:32px; vertical-align:middle;" src="https://user-images.githubusercontent.com/516342/37675827-f3016264-2c7e-11e8-9806-46341bec1d6c.png">](https://omrilotan.com)

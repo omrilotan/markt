@@ -71,6 +71,11 @@ blockquote {
   border-left: 4px solid $background-alt;
 }
 
-img {
+img, pre, code, table {
   max-width: 100%;
+  overflow-x: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  body { padding: 1em; }
 }
